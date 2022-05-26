@@ -1,0 +1,20 @@
+.c1
+{
+    display: grid;
+    background-color: beige;
+    justify-content: center;
+    font-size: large;
+    margin-top: 230px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}  
+.i1:hover{
+    width: 200px;
+    height: 200px;
+    transition-property: width,height;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in; 
+    transition-timing-function: ease-out;
+}
+img{
+    border-radius: 50%;
+}
